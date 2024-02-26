@@ -17,154 +17,154 @@
 
     <?php
 
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if ($_SERVER["REQUEST_METHOD"] == "POST")
 
         $card1 = (rand(1, 13));
-        $card2 = (rand(1, 13));
-        $card3 = (rand(1, 13));
+    $card2 = (rand(1, 13));
+    $card3 = (rand(1, 13));
 
-        //CARD 1
+    //CARD 1
 
-        if ($card1 == 1) {
+    if ($card1 == 1) {
 
-            echo "<img src='images/DoD_A.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card1 == 2) {
+        echo "<img src='images/DoD_A.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card1 == 2) {
 
-            echo "<img src='images/DoD_2.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card1 == 3) {
+        echo "<img src='images/DoD_2.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card1 == 3) {
 
-            echo "<img src='images/DoD_3.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card1 == 4) {
+        echo "<img src='images/DoD_3.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card1 == 4) {
 
-            echo "<img src='images/DoD_4.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card1 == 5) {
+        echo "<img src='images/DoD_4.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card1 == 5) {
 
-            echo "<img src='images/DoD_5.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card1 == 6) {
+        echo "<img src='images/DoD_5.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card1 == 6) {
 
-            echo "<img src='images/DoD_6.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card1 == 7) {
+        echo "<img src='images/DoD_6.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card1 == 7) {
 
-            echo "<img src='images/DoD_7.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card1 == 8) {
+        echo "<img src='images/DoD_7.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card1 == 8) {
 
-            echo "<img src='images/DoD_8.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card1 == 9) {
+        echo "<img src='images/DoD_8.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card1 == 9) {
 
-            echo "<img src='images/DoD_9.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card1 == 10) {
+        echo "<img src='images/DoD_9.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card1 == 10) {
 
-            echo "<img src='images/DoD_10.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card1 == 11) {
+        echo "<img src='images/DoD_10.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card1 == 11) {
 
-            echo "<img src='images/DoD_joker.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card1 == 12) {
+        echo "<img src='images/DoD_joker.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card1 == 12) {
 
-            echo "<img src='images/DoD_queen.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card1 == 13) {
+        echo "<img src='images/DoD_queen.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card1 == 13) {
 
-            echo "<img src='images/DoD_king.jpg' class='img-card' width='320' height='470'>";
-        }
+        echo "<img src='images/DoD_king.jpg' class='img-card' width='320' height='470'>";
+    }
 
-        //CARD 2
+    //CARD 2
 
-        if ($card2 == 1) {
+    if ($card2 == 1) {
 
-            echo "<img src='images/DoD_A.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card2 == 2) {
+        echo "<img src='images/DoD_A.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card2 == 2) {
 
-            echo "<img src='images/DoD_2.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card2 == 3) {
+        echo "<img src='images/DoD_2.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card2 == 3) {
 
-            echo "<img src='images/DoD_3.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card2 == 4) {
+        echo "<img src='images/DoD_3.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card2 == 4) {
 
-            echo "<img src='images/DoD_4.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card2 == 5) {
+        echo "<img src='images/DoD_4.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card2 == 5) {
 
-            echo "<img src='images/DoD_5.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card2 == 6) {
+        echo "<img src='images/DoD_5.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card2 == 6) {
 
-            echo "<img src='images/DoD_6.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card2 == 7) {
+        echo "<img src='images/DoD_6.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card2 == 7) {
 
-            echo "<img src='images/DoD_7.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card2 == 8) {
+        echo "<img src='images/DoD_7.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card2 == 8) {
 
-            echo "<img src='images/DoD_8.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card2 == 9) {
+        echo "<img src='images/DoD_8.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card2 == 9) {
 
-            echo "<img src='images/DoD_9.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card2 == 10) {
+        echo "<img src='images/DoD_9.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card2 == 10) {
 
-            echo "<img src='images/DoD_10.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card2 == 11) {
+        echo "<img src='images/DoD_10.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card2 == 11) {
 
-            echo "<img src='images/DoD_joker.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card2 == 12) {
+        echo "<img src='images/DoD_joker.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card2 == 12) {
 
-            echo "<img src='images/DoD_queen.jpg' class='img-card' width='320' height='470'>";
-        } else if ($card2 == 13) {
+        echo "<img src='images/DoD_queen.jpg' class='img-card' width='320' height='470'>";
+    } else if ($card2 == 13) {
 
-            echo "<img src='images/DoD_king.jpg' class='img-card' width='320' height='470'>";
-        }
+        echo "<img src='images/DoD_king.jpg' class='img-card' width='320' height='470'>";
+    }
 
-        //CARD 3
+    //CARD 3
 
-        if ($card3 == 1) {
+    if ($card3 == 1) {
 
-            echo "<img src='images/DoD_A.jpg' id='img-card3' class='img-card' width='320' height='470'>";
-        } else if ($card3 == 2) {
+        echo "<img src='images/DoD_A.jpg' id='img-card3' class='img-card' width='320' height='470'>";
+    } else if ($card3 == 2) {
 
-            echo "<img src='images/DoD_2.jpg' id='img-card3' class='img-card' width='320' height='470'>";
-        } else if ($card3 == 3) {
+        echo "<img src='images/DoD_2.jpg' id='img-card3' class='img-card' width='320' height='470'>";
+    } else if ($card3 == 3) {
 
-            echo "<img src='images/DoD_3.jpg' id='img-card3' class='img-card' width='320' height='470'>";
-        } else if ($card3 == 4) {
+        echo "<img src='images/DoD_3.jpg' id='img-card3' class='img-card' width='320' height='470'>";
+    } else if ($card3 == 4) {
 
-            echo "<img src='images/DoD_4.jpg' id='img-card3' class='img-card' width='320' height='470'>";
-        } else if ($card3 == 5) {
+        echo "<img src='images/DoD_4.jpg' id='img-card3' class='img-card' width='320' height='470'>";
+    } else if ($card3 == 5) {
 
-            echo "<img src='images/DoD_5.jpg' id='img-card3' class='img-card' width='320' height='470'>";
-        } else if ($card3 == 6) {
+        echo "<img src='images/DoD_5.jpg' id='img-card3' class='img-card' width='320' height='470'>";
+    } else if ($card3 == 6) {
 
-            echo "<img src='images/DoD_6.jpg' id='img-card3' class='img-card' width='320' height='470'>";
-        } else if ($card3 == 7) {
+        echo "<img src='images/DoD_6.jpg' id='img-card3' class='img-card' width='320' height='470'>";
+    } else if ($card3 == 7) {
 
-            echo "<img src='images/DoD_7.jpg' id='img-card3' class='img-card' width='320' height='470'>";
-        } else if ($card3 == 8) {
+        echo "<img src='images/DoD_7.jpg' id='img-card3' class='img-card' width='320' height='470'>";
+    } else if ($card3 == 8) {
 
-            echo "<img src='images/DoD_8.jpg' id='img-card3' class='img-card' width='320' height='470'>";
-        } else if ($card3 == 9) {
+        echo "<img src='images/DoD_8.jpg' id='img-card3' class='img-card' width='320' height='470'>";
+    } else if ($card3 == 9) {
 
-            echo "<img src='images/DoD_9.jpg' id='img-card3' class='img-card' width='320' height='470'>";
-        } else if ($card3 == 10) {
+        echo "<img src='images/DoD_9.jpg' id='img-card3' class='img-card' width='320' height='470'>";
+    } else if ($card3 == 10) {
 
-            echo "<img src='images/DoD_10.jpg' id='img-card3' class='img-card' width='320' height='470'>";
-        } else if ($card3 == 11) {
+        echo "<img src='images/DoD_10.jpg' id='img-card3' class='img-card' width='320' height='470'>";
+    } else if ($card3 == 11) {
 
-            echo "<img src='images/DoD_joker.jpg' id='img-card3' class='img-card' width='320' height='470'>";
-        } else if ($card3 == 12) {
+        echo "<img src='images/DoD_joker.jpg' id='img-card3' class='img-card' width='320' height='470'>";
+    } else if ($card3 == 12) {
 
-            echo "<img src='images/DoD_queen.jpg' id='img-card3' class='img-card' width='320' height='470'>";
-        } else if ($card3 == 13) {
+        echo "<img src='images/DoD_queen.jpg' id='img-card3' class='img-card' width='320' height='470'>";
+    } else if ($card3 == 13) {
 
-            echo "<img src='images/DoD_king.jpg' id='img-card3' class='img-card' width='320' height='470'>";
-        }
+        echo "<img src='images/DoD_king.jpg' id='img-card3' class='img-card' width='320' height='470'>";
+    }
 
-        //IF CARD 1 AND CARD 2 ARE NOT EQUAL
+    //IF CARD 1 AND CARD 2 ARE NOT EQUAL
 
-        if ($card1 != $card2) {
+    if ($card1 != $card2) {
 
-            echo "
+        echo "
         <button type='button' onclick='dealShowAndCheck()' id='img-deal' class='btn-deal'><b><img src='images/DoD_deal.png'></b></button>
         <img src='images/DoD_or.png' id='img-or'>
         <button type='button' onclick='deadShowAndCheck()' id='img-dead' class='btn-dead'><b><img src='images/DoD_dead.png'></b></button>
         ";
 
-            echo "<div id='result'></div>";
+        echo "<div id='result'></div>";
 
-            echo "
+        echo "
         <script>
             function dealShowAndCheck() {
                 var card1 = $card1;
@@ -202,12 +202,12 @@
         </script>
  
         ";
-        }
+    }
 
-        //IF CARD 1 AND CARD 2 ARE EQUAL
+    //IF CARD 1 AND CARD 2 ARE EQUAL
 
 
-        /* echo "<img src='images/DoD_5.jpg' id='img-card3' class='img-card' width='320' height='470'>";
+    /* echo "<img src='images/DoD_5.jpg' id='img-card3' class='img-card' width='320' height='470'>";
     } elseif ($card3 == 6) {
 
         echo "<img src='images/DoD_6.jpg' id='img-card3' class='img-card' width='320' height='470'>";
