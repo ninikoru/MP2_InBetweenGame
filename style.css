@@ -10,6 +10,10 @@ button {
     border: none;
 }
 
+form {
+    text-align: center;
+}
+
 h1 {
     text-align: center;
     font-family: "IM Fell English", serif;
@@ -19,15 +23,24 @@ h1 {
     padding-top: 100px;
 }
 
-img .front-title {
+.front-title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 55%;
     text-align: center;
 }
 
-img .front {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.front-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 15%;
+    text-align: center;
 }
 
 #img-card3 {

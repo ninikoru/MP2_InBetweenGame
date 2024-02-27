@@ -74,9 +74,9 @@
         The prediction is correct, so Player 1 earns 1 point.
         The 7 of Diamonds replaces the 5 of Hearts as one of Player 1's initial cards.</p>
 
-    <a href="random.php">
+    <form action="rounds.php" method="post">
         <button>I'M READY</button>
-    </a>
+    </form>
 
     <a href="index.php">
         <button>BRING ME BACK TO MAIN MENU</button>

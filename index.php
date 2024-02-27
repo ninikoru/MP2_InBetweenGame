@@ -20,7 +20,7 @@
     <img src='images/DoD_title.png' class='front-title'>
 
 
-    <form action="random.php" method="post">
+    <form action="rounds.php" method="post">
         <button type="submit" class="btn"><b><img src='images/DoD_play.png'></b></button>
         <img src='images/DoD_exit.png'>
         <a href="mechanics.php">
