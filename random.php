@@ -355,9 +355,6 @@
             </form>
         ";
                     }
-                    if ($lives == 1) {
-                        echo "<div id='warning'>WARNING! You have 1 life left!</div>";
-                    }
                 }
             }
         }
@@ -376,6 +373,17 @@ echo "GAME OVERRRRR!";
 // If not a POST request, start from round 1
 $currentRound = 1;
 } */
+
+    if ($lives == 1) {
+        echo "<div id='warning'>Redirecting you back to hell...</div>";
+
+        // Add JavaScript to redirect after a delay
+        echo "<script>
+setTimeout(function() {
+window.location.href = 'warning.php'; // 
+}, 2000); // Redirect after 2 seconds 
+</script>";
+    }
 
 
     ?>
