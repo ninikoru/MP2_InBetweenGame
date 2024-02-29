@@ -1,8 +1,9 @@
 body {
-    /*background-image: url(images/DoD_bg.gif);*/
+    background-image: url(images/DoD_bg.gif);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: "IM Fell English", serif;
 }
 
 button {
@@ -11,6 +12,41 @@ button {
 }
 
 form {
+    text-align: center;
+}
+
+table {
+    border: none;
+    background: beige;
+    border-radius: 25px;
+    display: block;
+    margin: 70px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    width: 65%;
+}
+
+img {
+    margin-bottom: 25px;
+}
+
+.img-card1 {
+    display: block;
+    margin-left: 60px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.img-card2 {
+    display: block;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.img-card3 {
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
     text-align: center;
 }
 
@@ -23,6 +59,14 @@ h1 {
     padding-top: 100px;
 }
 
+p {
+    text-align: center;
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+}
+
 .front-title {
     display: block;
     margin-left: auto;
@@ -33,6 +77,13 @@ h1 {
     text-align: center;
 }
 
+.form-group {
+    text-align: center;
+    font-family: "IM Fell English", serif;
+    font-size: 25px;
+    color: gainsboro;
+}
+
 .front-btn {
     display: block;
     margin-left: auto;
@@ -41,6 +92,125 @@ h1 {
     margin-bottom: auto;
     width: 15%;
     text-align: center;
+}
+
+.btn {
+    background-color: crimson;
+    border-radius: 25px;
+    text-align: center;
+    font-family: "IM Fell English", serif;
+    font-size: 90px;
+    color:gainsboro;
+}
+
+input {
+    text-align: center;
+    font-family: "IM Fell English", serif;
+    font-size: 65px;
+    color: gainsboro;
+}
+
+.rb {
+    text-align: center;
+    font-family: "IM Fell English", serif;
+    font-weight: 90;
+    font-size: 50px;
+    color: gainsboro;
+}
+
+.result {
+    text-align: left;
+    margin-left: 70px;
+    font-family: "IM Fell English", serif;
+    font-weight: 90;
+    font-size: 50px;
+}
+
+.lives {
+    text-align: right;
+    margin-right: 25px;
+    font-family: "IM Fell English", serif;
+    font-weight: 90;
+    font-style: normal;
+    font-size: 40px;
+    background-attachment: fixed;
+}
+
+.btn-next {
+    border: 10px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 25px;
+    background-color: crimson;
+    font-family: "IM Fell English", serif;
+    font-size: 20px;
+}
+
+.btn-deal {
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 65px;
+    font-weight: 90;
+}
+
+.btn-dead {
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 65px;
+    font-weight: 90;
+}
+
+.img-or {
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 65px;
+    font-weight: 90;
+}
+
+.btn-higher {
+    background-color: transparent;
+    border: none;
+    font-family: "IM Fell English", serif;
+    color: black;
+    font-size: 80px;
+    text-align: left;
+    margin-left: 65px;
+    font-weight: 90;
+}
+
+.btn-lower {
+    background-color: transparent;
+    border: none;
+    font-family: "IM Fell English", serif;
+    color: crimson;
+    font-size: 80px;
+    text-align: left;
+    margin-left: 65px;
+    font-weight: 90;
+}
+
+.p-won {
+    text-align: center;
+    font-family: "IM Fell English", serif;
+    font-weight: 90;
+    font-style: normal;
+    font-size: 150px;
+    color: crimson;
+}
+
+.p-lost {
+    text-align: center;
+    font-family: "IM Fell English", serif;
+    font-weight: 90;
+    font-style: normal;
+    font-size: 150px;
+    color: crimson;
 }
 
 #img-card3 {

@@ -3,23 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ROUNDS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>DEAL OR DEAD</title>
 </head>
 <body>
     
     <div class='container mt-5'><br>
-    <h1 class='text-center'>Pick your Round</h1><br>
+    <h1 class='text-center'>Choose Difficulty</h1><br>
     <form action="random.php" method='post'>
         <div class='form-group'>
-            <input type='radio' id='radio' name='radio' value='easy'>EASY (3 ROUNDS)</input><br>
-            <input type='radio' id='radio' name='radio' value='mid'>MID (5 ROUNDS)</input><br>
-            <input type='radio' id='radio' name='radio' value='hard'>HARD (10 ROUNDS)</input>
+            <input type='radio' id='radio' name='radio' value='easy' class="rb"> EASY</input><br>
+            <input type='radio' id='radio' name='radio' value='mid' class="rb"> MID</input><br>
+            <input type='radio' id='radio' name='radio' value='hard' class="rb"> HARD</input>
             <input type="hidden" name="round" value="1">
         </div>
         <button type='submit' class='btn'><b>CONTINUE</b></button>
     </form>
-    <a href="index.php"><button>BACK</button></a>
+    <a href="index.php"><button class="btn">BACK</button></a>
     </div>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -19,13 +19,12 @@
 
     <img src='images/DoD_title.png' class='front-title'>
 
-
     <form action="rounds.php" method="post">
-        <button type="submit" class="btn"><b><img src='images/DoD_play.png'></b></button>
-        <img src='images/DoD_exit.png'>
-        <a href="mechanics.php">
-            <img src='images/DoD_mechanics.png'>
-        </a>
+        <button type="submit" class="btn-front"><b><img src='images/DoD_play.png'></b></button>
+        <br><a href="mechanics.php">
+            <img src='images/DoD_mechanics.png' class="btn-front">
+        </a><br>
+        <img src='images/DoD_exit.png' class="front-btn">
     </form>
 
 

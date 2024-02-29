@@ -56,8 +56,8 @@
 
 <body>
     <h1>How To Play In-Between Game</h1>
-    <h2>Rank of Cards</h2>
-    <p>A (high), K, Q, J, 10, 9, 8, 7, 6, 5, 4, 3, 2.</p>
+    <h2>Cards</h2>
+    <p>A, 2, 3, 4, 5, 6, 7, 8, 9, 10, Joker, Queen, King</p>
     <h2>Objective</h2>
     <p>Accumulate points by successfully predicting whether the next drawn card falls in between the values of the two initial cards. The goal is to win and escape hell. A word of advice: don't let greed get to you – it's as easy to lose as it is to win in this game.</p>
     <h2>The Good, The Bet and The Ugly</h2>
