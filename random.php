@@ -15,6 +15,7 @@
 
 <body>
 
+
     <?php
 
     $currentRound = 1;
@@ -32,12 +33,17 @@
 
         if ($lives > 0) {
 
+            echo "<img src='images/lildevil.png' id='design-beside-card'>";
+
+
             if(($_POST["radio"]=="easy" && $currentRound <= 3) OR ($_POST["radio"]=="mid" && $currentRound <= 5) OR ($_POST["radio"]=="hard" && $currentRound <= 10)) {
         
-            $card1 = (rand(1, 13));
-            $card2 = (rand(1, 13));
-            $card3 = (rand(1, 13));
+            $card1 = (rand(1, 3));
+            $card2 = (rand(1, 3));
+            $card3 = (rand(1, 3));
         
+            echo "<div id='livesDisplay' class='lives'>LIVES: {$lives}</div>";
+
             //CARD 1
         
             if ($card1 == 1) {
@@ -167,9 +173,11 @@
                 echo "<td><img src='images/DoD_king.jpg' id='img-card3' class='img-card3' width='250' height='370'></td></tr></table>";
             }
 
+
                 //IF CARD 1 AND CARD 2 ARE NOT EQUAL
 
                 if ($card1 != $card2) {
+
 
 
                     echo "
@@ -180,7 +188,7 @@
 
                     echo "<div id='result' class='result'></div>";
 
-                    echo "<div id='livesDisplay' class='lives'>LIVES: {$lives}</div>";
+                    //echo "<div id='livesDisplay' class='lives'>LIVES: {$lives}</div>";
 
                     echo "
         <script>
@@ -334,6 +342,7 @@
         </form>
     ";
                 }
+
 
             } //IF EASY, MID,..
 

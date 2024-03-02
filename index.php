@@ -15,18 +15,15 @@
 
 <body>
 
-    <!-- <img src='images/Deal or Dead front.png' class='front'> -->
+    <img src='images/titleee.png' class='front-title'>
 
-    <img src='images/DoD_title.png' class='front-title'>
-
-    <form action="rounds.php" method="post">
-        <button type="submit" class="btn-front"><b><img src='images/DoD_play.png'></b></button>
+    <form action="rounds.php" method="post" class="form-front">
+        <button type="submit" class="btn-front-play"><b><img src='images/play.png'></b></button>
         <br><a href="mechanics.php">
-            <img src='images/DoD_mechanics.png' class="btn-front">
+            <img src='images/mechanics.png' class="btn-front-mechanics">
         </a><br>
-        <img src='images/DoD_exit.png' class="front-btn">
+        <a href="exit.php"><img src='images/exit.png' class="btn-front-exit"></a>
     </form>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

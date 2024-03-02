@@ -9,11 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>DEAL OR DEAD</title>
+    <title>DoD | DIFFICULTY</title>
 </head>
 <body>
     
-    <div class='container mt-5'><br>
+    <div class='container-rounds mt-5'><br>
     <h1 class='text-center'>Choose Difficulty</h1><br>
     <form action="random.php" method='post'>
         <div class='form-group'>
@@ -21,10 +21,10 @@
             <input type='radio' id='radio' name='radio' value='mid' class="rb"> MID</input><br>
             <input type='radio' id='radio' name='radio' value='hard' class="rb"> HARD</input>
             <input type="hidden" name="round" value="1">
-        </div>
-        <button type='submit' class='btn'><b>CONTINUE</b></button>
+        </div><br>
+        <button type='submit' class='btn-continue'><b>CONTINUE</b></button>
     </form>
-    <a href="index.php"><button class="btn">BACK</button></a>
+    <a href="index.php"><button class="btn-back"><b>   BACK   </b></button></a>
     </div>
 
 

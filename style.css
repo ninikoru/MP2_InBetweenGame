@@ -1,9 +1,24 @@
+.container-exit {
+    background-image: url(images/theend.gif);
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: auto;
+    width: auto;
+    text-align: center;
+    max-width: 100%;
+  }
+
 body {
-    background-image: url(images/DoD_bg.gif);
+    background-image: url(images/DoD-gif.gif);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "IM Fell English", serif;
+    margin-top: 0%;
+    margin-bottom: 10px;
 }
 
 button {
@@ -15,12 +30,20 @@ form {
     text-align: center;
 }
 
+.form-front {
+    margin: 0;
+}
+
 table {
     border: none;
-    background: beige;
+    /*background-image: url(images/bgpop.png);*/
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 25px;
-    display: block;
+    /*display: block;*/
+    display: flex;
     margin: 70px;
+    margin-top: 2%;
     padding-top: 15px;
     padding-bottom: 5px;
     width: 65%;
@@ -50,13 +73,19 @@ img {
     text-align: center;
 }
 
+#design-beside-card {
+    float:right;
+    margin-right: 35px;
+    background-attachment: fixed;
+}
+
 h1 {
     text-align: center;
     font-family: "IM Fell English", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 100px;
-    padding-top: 100px;
+    /*padding-top: 100px;*/
 }
 
 p {
@@ -71,9 +100,9 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 55%;
+    margin-top: 10%;
+    margin-bottom: 7%;
+    width: 65%;
     text-align: center;
 }
 
@@ -81,10 +110,38 @@ p {
     text-align: center;
     font-family: "IM Fell English", serif;
     font-size: 25px;
-    color: gainsboro;
 }
 
-.front-btn {
+
+.btn-front-play {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    height: 30px;
+}
+
+.btn-front-mechanics {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5%;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+.btn-front-exit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 1.7%;
+    text-align: center;
+}
+
+/*.btn-front {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -92,7 +149,7 @@ p {
     margin-bottom: auto;
     width: 15%;
     text-align: center;
-}
+}*/
 
 .btn {
     background-color: crimson;
@@ -111,6 +168,28 @@ input {
 }
 
 .rb {
+    text-align: justify;
+    font-family: "IM Fell English", serif;
+    font-weight: 90;
+    font-size: 50px;
+    color: gainsboro;
+    padding-left: 5%;
+
+}
+
+.rb-easy {
+    padding-left: 5%;
+}
+
+.rb-mid {
+    text-align: center;
+    font-family: "IM Fell English", serif;
+    font-weight: 90;
+    font-size: 50px;
+    color: gainsboro;
+}
+
+.rb-hard {
     text-align: center;
     font-family: "IM Fell English", serif;
     font-weight: 90;
@@ -128,6 +207,7 @@ input {
 
 .lives {
     text-align: right;
+    margin-top: 20px;
     margin-right: 25px;
     font-family: "IM Fell English", serif;
     font-weight: 90;
@@ -138,7 +218,6 @@ input {
 
 .btn-next {
     border: 10px;
-    border-radius: 25px;
     padding: 10px;
     margin-bottom: 25px;
     background-color: crimson;
@@ -212,6 +291,55 @@ input {
     font-size: 150px;
     color: crimson;
 }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-family: "IM Fell English", serif;
+    font-weight: 90;
+    font-style: normal;
+    font-size: 150px;
+    color: crimson;
+    background-size: cover;
+    display: inline-block;
+  }
+  
+  .btn-continue {
+    font-family: "IM Fell English", serif;
+    border: 10px;
+    padding: 10px;
+    margin-bottom: 25px;
+    background-color: crimson;
+  }
+
+  .btn-back {
+    font-family: "IM Fell English", serif;
+    float: center;
+    border: 10px;
+    padding: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
+    margin-bottom: 25px;
+    background-color: crimson;
+  }
+
+    .container-rounds {
+        text-align: center;
+        padding-top: 7%;
+  }
+
+  /*.bg-exit { 
+    width: 120%;
+    height: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "IM Fell English", serif;
+    display: block;
+  }*/
 
 #img-card3 {
     display: none;
