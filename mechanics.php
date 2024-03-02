@@ -14,6 +14,7 @@
     <style>
         body {
             background-color: #1a1a1a;
+            background-image: url(images/bgpopop.gif);
             text-align:center;
             color: #fff;
             margin-top: 0%;

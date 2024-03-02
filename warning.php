@@ -15,9 +15,6 @@
 
     <button onclick="javascript:history.back();" class="button">CONTINUE</button>
 </head>
-
 <body>
-
 </body>
-
 </html>
