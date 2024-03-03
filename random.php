@@ -35,14 +35,7 @@
 
             //echo "<img src='images/reddevil.png' id='design-beside-card'>";
 
-
-            if(($_POST["radio"]=="easy" && $currentRound <= 3 && $lives == 1) OR ($_POST["radio"]=="mid" && $currentRound <= 5 && $lives == 1) OR ($_POST["radio"]=="hard" && $currentRound <= 10 && $lives == 1)) {
-                echo "<script>alert('Be Careful. You only have one life left.');</script>";
-            
-                $_SESSION['alert'] = true;
-            }
-
-            else if(($_POST["radio"]=="easy" && $currentRound <= 3) OR ($_POST["radio"]=="mid" && $currentRound <= 5) OR ($_POST["radio"]=="hard" && $currentRound <= 10)) {
+            if(($_POST["radio"]=="easy" && $currentRound <= 3) OR ($_POST["radio"]=="mid" && $currentRound <= 5) OR ($_POST["radio"]=="hard" && $currentRound <= 10)) {
         
             $card1 = (rand(1, 13));
             $card2 = (rand(1, 13));
@@ -360,17 +353,6 @@
     else { //THIS IS WHEN THE USER LOSES THE GAME
 
         echo "<p class='p-lost'>GAME OVERRRRR!</p>";
-
-        //JOYCE'S TRANSITION CODE STARTS HERE
-
-            //echo "<div id='warning'>Redirecting you back to hell...</div>";
-    
-            // Add JavaScript to redirect after a delay
-            /*echo "<script>
-    setTimeout(function() {
-    window.location.href = 'warning.php'; // 
-    }, 2000); // Redirect after 2 seconds 
-    </script>";*/
 
     }
 
